@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Julio Molina",
+    "timezone": "America/Chicago",
+    "image": "https://pbs.twimg.com/profile_images/1388228270131486726/gLkx8bSH_400x400.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rocco Sangellino",
+    "timezone": "America/Denver",
+    "image": "https://pbs.twimg.com/profile_images/1388602894258114561/LYpjcAVx_400x400.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Katherine Peterson",
+    "timezone": "America/Los_Angeles",
+    "image": "https://pbs.twimg.com/profile_images/1354163904213966848/4dOl8di8_400x400.jpg"
+  }
+]
