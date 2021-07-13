@@ -22,15 +22,6 @@ export default {
 </script>
 
 <style>
-/* .container {
-  max-width: 500px;
-  margin: 30px auto;
-  overflow: auto;
-  min-height: 300px;
-  border: 1px solid grey;
-  padding: 30px;
-  border-radius: 5px;
-} */
 body {
   background: #35495e;
 }
