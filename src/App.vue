@@ -1,5 +1,6 @@
 <template>
   <Header />
+  <div class="container"></div>
   <Footer />
 </template>
 
@@ -16,4 +17,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid grey;
+  padding: 30px;
+  border-radius: 5px;
+}
+</style>
