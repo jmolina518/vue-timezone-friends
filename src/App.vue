@@ -28,7 +28,6 @@ body {
 
 .container {
   width: 90vw;
-  max-width: 450px;
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   align-items: center;
