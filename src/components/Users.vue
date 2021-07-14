@@ -4,14 +4,19 @@
     <div>
       <h4>{{ user.name }}</h4>
       <p>{{ user.timezone }}</p>
+      <DateTime :timezone="user.timezone" />
     </div>
   </article>
 </template>
 
 <script>
 import usersData from '../json/users.json';
+import DateTime from './DateTime';
 
 export default {
+  components: {
+    DateTime,
+  },
   data() {
     return {
       users: usersData,
