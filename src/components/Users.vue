@@ -1,10 +1,12 @@
 <template>
   <article class="person" v-for="user in users" :key="user.id">
-    <img :src="user.image" alt="" />
+    <a :href="user.twitter" target="_blank">
+      <img :src="user.image" alt="profile pic" />
+    </a>
     <div>
       <h4>{{ user.name }}</h4>
       <p>{{ user.timezone }}</p>
-      <DateTime :timezone="user.timezone" />
+      <DateTime :timezone="user.timezone" class="date" />
     </div>
   </article>
 </template>
