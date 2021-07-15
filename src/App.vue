@@ -22,21 +22,14 @@ export default {
 </script>
 
 <style>
-body {
-  background: #35495e;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.container {
-  width: 90vw;
-  background: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  align-items: center;
-  max-width: 500px;
-  margin: 30px auto;
-  overflow: auto;
-  min-height: 300px;
-  border: 1px solid grey;
-  padding: 30px;
-  border-radius: 5px;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #35495e;
 }
 </style>
