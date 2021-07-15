@@ -58,7 +58,6 @@ export default {
   height: 75px;
   object-fit: cover;
   border-radius: 50%;
-  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
 }
 .person h4 {
   margin-bottom: 0.35rem;
