@@ -3,103 +3,121 @@
     "id": 1,
     "name": "Julio Molina",
     "timezone": "America/Chicago",
-    "image": "https://pbs.twimg.com/profile_images/1408066867168567308/rrZL3Jy5_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1408066867168567308/rrZL3Jy5_400x400.jpg",
+    "twitter": "https://twitter.com/julio_codes"
   },
   {
     "id": 2,
     "name": "Rocco Sangellino",
     "timezone": "America/Denver",
-    "image": "https://pbs.twimg.com/profile_images/1388602894258114561/LYpjcAVx_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1388602894258114561/LYpjcAVx_400x400.jpg",
+    "twitter": "https://twitter.com/RoccoSangellino"
   },
   {
     "id": 3,
     "name": "Tom Burdak",
     "timezone": "America/New_York",
-    "image": "https://pbs.twimg.com/profile_images/1402852939652345859/FO42ZVDS_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1402852939652345859/FO42ZVDS_400x400.jpg",
+    "twitter": "https://twitter.com/codeLogik"
   },
   {
     "id": 4,
     "name": "Maaike",
     "timezone": "Europe/Brussels",
-    "image": "https://pbs.twimg.com/profile_images/1338934414634520582/hDqAJRhe_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1338934414634520582/hDqAJRhe_400x400.jpg",
+    "twitter": "https://twitter.com/photonoty_codes"
   },
   {
     "id": 5,
-    "name": "Katherine Peterson",
-    "timezone": "America/Los_Angeles",
-    "image": "https://pbs.twimg.com/profile_images/1354163904213966848/4dOl8di8_400x400.jpg"
+    "name": "Silas Huereca",
+    "timezone": "America/Chicago",
+    "image": "https://pbs.twimg.com/profile_images/1294276323372916737/tyb7dazy_400x400.jpg",
+    "twitter": "https://twitter.com/sihuereca"
   },
 
   {
     "id": 6,
-    "name": "Shaquil Hansford",
-    "timezone": "America/Detroit",
-    "image": "https://pbs.twimg.com/profile_images/1387992635105812485/54yCv-mQ_400x400.jpg"
+    "name": "Katherine Peterson",
+    "timezone": "America/Los_Angeles",
+    "image": "https://pbs.twimg.com/profile_images/1354163904213966848/4dOl8di8_400x400.jpg",
+    "twitter": "https://twitter.com/katherinecodes"
   },
+
   {
     "id": 7,
-    "name": "James Cox",
-    "timezone": "America/Chicago",
-    "image": "https://pbs.twimg.com/profile_images/1402802422637117451/U-fjmCk6_400x400.jpg"
+    "name": "Shaquil Hansford",
+    "timezone": "America/Detroit",
+    "image": "https://pbs.twimg.com/profile_images/1387992635105812485/54yCv-mQ_400x400.jpg",
+    "twitter": "https://twitter.com/shaquilhansford"
   },
   {
     "id": 8,
-    "name": "Charles Desiderio",
+    "name": "James Cox",
     "timezone": "America/Chicago",
-    "image": "https://pbs.twimg.com/profile_images/1233168090797629444/XtZK9MW7_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1402802422637117451/U-fjmCk6_400x400.jpg",
+    "twitter": "https://twitter.com/MemRook"
   },
   {
     "id": 9,
-    "name": "Nacho Iacovino",
-    "timezone": "Europe/Madrid",
-    "image": "https://pbs.twimg.com/profile_images/1352285231030689794/MgpWv4q0_400x400.jpg"
+    "name": "Charles Desiderio",
+    "timezone": "America/Chicago",
+    "image": "https://pbs.twimg.com/profile_images/1233168090797629444/XtZK9MW7_400x400.jpg",
+    "twitter": "https://twitter.com/CJDesiderio"
   },
   {
     "id": 10,
-    "name": "Edan Ben-Atar",
-    "timezone": "America/New_York",
-    "image": "https://pbs.twimg.com/profile_images/1412761083849457664/lsGkrZIQ_400x400.jpg"
+    "name": "Nacho Iacovino",
+    "timezone": "Europe/Madrid",
+    "image": "https://pbs.twimg.com/profile_images/1352285231030689794/MgpWv4q0_400x400.jpg",
+    "twitter": "https://twitter.com/nachoiacovino"
   },
   {
     "id": 11,
-    "name": "Sarah Shook",
-    "timezone": "America/Chicago",
-    "image": "https://pbs.twimg.com/profile_images/1400216053280559104/WvAf6G1M_400x400.jpg"
+    "name": "Edan Ben-Atar",
+    "timezone": "America/New_York",
+    "image": "https://pbs.twimg.com/profile_images/1412761083849457664/lsGkrZIQ_400x400.jpg",
+    "twitter": "https://twitter.com/edanbenatar"
   },
   {
     "id": 12,
-    "name": "Kelsi Proulx",
-    "timezone": "America/Los_Angeles",
-    "image": "https://pbs.twimg.com/profile_images/1369160136141377539/biO8qtON_400x400.jpg"
+    "name": "Sarah Shook",
+    "timezone": "America/Chicago",
+    "image": "https://pbs.twimg.com/profile_images/1400216053280559104/WvAf6G1M_400x400.jpg",
+    "twitter": "https://twitter.com/shookcodes"
   },
   {
     "id": 13,
-    "name": "Freddie Carthy",
+    "name": "Kelsi Proulx",
     "timezone": "America/Los_Angeles",
-    "image": "https://pbs.twimg.com/profile_images/1401420077837131776/px6RT7a3_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1369160136141377539/biO8qtON_400x400.jpg",
+    "twitter": "https://twitter.com/KelsiDev"
   },
   {
     "id": 14,
-    "name": "Vlad Pasca",
-    "timezone": "Europe/Bucharest",
-    "image": "https://pbs.twimg.com/profile_images/1377357987359100936/uptxZfmS_400x400.jpg"
+    "name": "Freddie Carthy",
+    "timezone": "America/Los_Angeles",
+    "image": "https://pbs.twimg.com/profile_images/1401420077837131776/px6RT7a3_400x400.jpg",
+    "twitter": "https://twitter.com/FreddieCarthy"
   },
   {
     "id": 15,
     "name": "Andres Contreras",
     "timezone": "Europe/Stockholm",
-    "image": "https://pbs.twimg.com/profile_images/1382922347649368064/djn2wQlh_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1382922347649368064/djn2wQlh_400x400.jpg",
+    "twitter": "https://twitter.com/andresuriegas"
   },
   {
     "id": 16,
     "name": "Mark Freeman",
     "timezone": "Europe/London",
-    "image": "https://pbs.twimg.com/profile_images/1369054987792289797/fLyFm_XL_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1369054987792289797/fLyFm_XL_400x400.jpg",
+    "twitter": "https://twitter.com/nitecoda1"
   },
   {
     "id": 17,
     "name": "Laura Todd",
     "timezone": "Europe/London",
-    "image": "https://pbs.twimg.com/profile_images/1370693324512837635/wSKanN3o_400x400.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1370693324512837635/wSKanN3o_400x400.jpg",
+    "twitter": "https://twitter.com/LauraToddCodes"
   }
 ]
