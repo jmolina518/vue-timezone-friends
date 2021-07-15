@@ -4,7 +4,7 @@
       <a :href="user.twitter" target="_blank">
         <img :src="user.image" alt="profile pic" />
       </a>
-      <div>
+      <div class="info">
         <h4>{{ user.name }}</h4>
         <p>{{ user.timezone }}</p>
         <DateTime :timezone="user.timezone" class="date" />
@@ -34,6 +34,9 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .person {
@@ -45,8 +48,7 @@ export default {
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   max-width: 300px;
-  margin: 30px auto;
-  margin-bottom: 1.5rem;
+  margin: 2rem 1.5rem;
   overflow: auto;
   min-height: 100px;
   border: 1px solid grey;
@@ -64,5 +66,9 @@ export default {
 }
 .person p {
   margin-bottom: 0;
+}
+.info p,
+.date {
+  color: grey;
 }
 </style>
