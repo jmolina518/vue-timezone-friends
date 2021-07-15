@@ -14,5 +14,7 @@ export default {};
 header {
   margin-top: 30px;
   text-align: center;
+  color: aliceblue;
+  font-size: 1.5rem;
 }
 </style>
