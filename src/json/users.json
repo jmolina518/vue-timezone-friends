@@ -126,5 +126,12 @@
     "timezone": "America/New_York",
     "image": "https://pbs.twimg.com/profile_images/1388233055958192132/SxF-5gXx_400x400.png",
     "twitter": "https://twitter.com/esti_pal"
+  },
+  {
+    "id": 19,
+    "name": "Annie Bombanie",
+    "timezone": "America/New_York",
+    "image": "https://pbs.twimg.com/profile_images/1397231638434697217/6ztb3kG8_400x400.jpg",
+    "twitter": "https://twitter.com/anniebombanie_"
   }
 ]
