@@ -37,28 +37,32 @@ export default {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .container {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
   width: 80vw;
   max-width: 2000px;
   margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+  row-gap: 20px;
+  column-gap: 3rem;
 }
 
 .card {
   display: flex;
   text-align: left;
+  -moz-column-gap: 1rem;
   column-gap: 1rem;
   align-items: center;
-  justify-content: space-around;
-  width: 90vw;
+  justify-self: center;
+  width: 36vw;
   background: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+  min-width: 300px;
   max-width: 350px;
-  margin: 1.5rem 1.5rem;
+  margin: 1.5rem 0.5rem;
   min-height: 100px;
   border: 1px solid grey;
   padding: 30px 15px;
