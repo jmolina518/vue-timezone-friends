@@ -1,7 +1,13 @@
 <template>
+  <input
+    class="search"
+    type="text"
+    v-model="search"
+    placeholder="Search Users..."
+  />
   <div class="outer-container">
     <div class="container">
-      <div class="card" v-for="user in users" :key="user.id">
+      <div class="card" v-for="user in filteredUsers" :key="user.id">
         <a :href="user.twitter" target="_blank" class="img-link">
           <img :src="user.image" alt="profile pic" />
         </a>
@@ -26,7 +32,15 @@ export default {
   data() {
     return {
       users: usersData,
+      search: '',
     };
+  },
+  computed: {
+    filteredUsers() {
+      return this.users.filter((user) => {
+        return user.name.toLowerCase().match(this.search);
+      });
+    },
   },
 };
 </script>
@@ -91,5 +105,22 @@ export default {
   margin: 0;
   padding: 0;
   max-height: 90px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: none;
+  width: 30%;
+  line-height: 30px;
+  margin-bottom: 15px 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 50px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
 }
 </style>
