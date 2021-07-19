@@ -113,7 +113,7 @@ export default {
   flex-wrap: wrap;
   margin: 0 auto;
   border: none;
-  width: 30%;
+  width: 15%;
   line-height: 30px;
   margin-bottom: 15px 30px;
   border: 1px solid grey;
@@ -121,6 +121,8 @@ export default {
   height: 50px;
   padding: 2px 23px 2px 30px;
   outline: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   background-color: #f5f5f5;
 }
 </style>
