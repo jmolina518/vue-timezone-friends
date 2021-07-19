@@ -117,7 +117,7 @@ export default {
   line-height: 30px;
   margin-bottom: 15px 30px;
   border: 1px solid grey;
-  border-radius: 5px;
+  border-radius: 7px;
   height: 50px;
   padding: 2px 23px 2px 30px;
   outline: 0;
