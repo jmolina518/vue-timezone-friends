@@ -20,7 +20,7 @@ header {
 
 @media (max-width: 450px) {
   header {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }
 </style>
