@@ -17,4 +17,10 @@ header {
   color: aliceblue;
   font-size: 1.5rem;
 }
+
+@media (max-width: 450px) {
+  header {
+    font-size: 1.3em;
+  }
+}
 </style>
