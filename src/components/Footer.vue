@@ -16,12 +16,6 @@ export default {};
 
 <style scoped>
 footer {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  widows: 100%;
   text-align: center;
   color: aliceblue;
   font-size: 1.5rem;

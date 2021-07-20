@@ -1,9 +1,9 @@
-<template>
+<template class="page">
   <Header />
-  <div class="container">
+  <div>
     <Users />
   </div>
-  <Footer />
+  <Footer class="footer" />
 </template>
 
 <script>
@@ -31,5 +31,17 @@ export default {
 body {
   font-family: 'Poppins', sans-serif;
   background: #35495e;
+}
+.footer {
+  margin: 30px 0;
+  height: 50px;
+}
+.page {
+  position: relative;
+}
+@media (max-width: 360px) {
+  .footer p {
+    font-size: 1.3rem;
+  }
 }
 </style>

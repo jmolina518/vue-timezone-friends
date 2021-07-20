@@ -114,11 +114,10 @@ export default {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 30px auto;
   border: none;
   width: 50%;
   line-height: 30px;
-  margin-bottom: 15px 30px;
   border: 1px solid grey;
   border-radius: 7px;
   height: 50px;
@@ -127,5 +126,10 @@ export default {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   background-color: #f5f5f5;
+}
+@media (min-width: 1024px) {
+  .search {
+    width: 30rem;
+  }
 }
 </style>
