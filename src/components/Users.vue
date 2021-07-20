@@ -113,7 +113,7 @@ export default {
   flex-wrap: wrap;
   margin: 0 auto;
   border: none;
-  width: 15%;
+  width: 50%;
   line-height: 30px;
   margin-bottom: 15px 30px;
   border: 1px solid grey;
