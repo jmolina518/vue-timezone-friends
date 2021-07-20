@@ -1,8 +1,6 @@
 <template>
   <footer>
-    <p>
-      Made by Julio Molina
-    </p>
+    <p>Made with <i class="fab fa-vuejs"></i> by Julio Molina</p>
     <p>
       Copyright &copy; 2021
     </p>
