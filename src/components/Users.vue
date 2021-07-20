@@ -3,7 +3,7 @@
     class="search"
     type="text"
     v-model="search"
-    placeholder="Search Users..."
+    placeholder="Enter Name..."
   />
   <div class="outer-container">
     <div class="container">
@@ -37,6 +37,9 @@ export default {
   },
   computed: {
     filteredUsers() {
+      if (!this.search) {
+        return [];
+      }
       return this.users.filter((user) => {
         return user.name.toLowerCase().match(this.search);
       });
