@@ -4,9 +4,6 @@
       Made with <i class="fab fa-vuejs"></i> by
       <a href="https://twitter.com/julio_codes">Julio Molina</a>
     </p>
-    <p>
-      Copyright &copy; 2021
-    </p>
   </footer>
 </template>
 
