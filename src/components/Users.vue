@@ -10,12 +10,13 @@
       <div class="card" v-for="user in filteredUsers" :key="user.id">
         <img :src="user.image" alt="profile pic" />
         <div class="info">
-          <h4>{{ user.name }}</h4>
-          <!-- <p>{{ user.timezone }}</p> -->
+          <div class="profile">
+            <h4 class="name">{{ user.name }}</h4>
+            <a :href="user.twitter" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
           <DateTime :timezone="user.timezone" class="date" />
-          <a :href="user.twitter" target="_blank"
-            ><i class="fab fa-twitter"></i
-          ></a>
         </div>
       </div>
     </div>
@@ -105,8 +106,15 @@ export default {
 .date {
   color: grey;
 }
-
+.profile {
+  display: flex;
+  flex-direction: row;
+}
 .fab {
+  padding-left: 0.5em;
+  color: grey;
+}
+.fab:hover {
   color: #1da1f2;
 }
 .search {
