@@ -40,10 +40,7 @@ export default {
   computed: {
     filteredUsers() {
       return this.users.filter((user) => {
-        return user.name
-          .toLowerCase()
-          .substring(0, 2)
-          .match(this.search.toLowerCase());
+        return user.name.toLowerCase().startsWith(this.search.toLowerCase());
       });
     },
   },
