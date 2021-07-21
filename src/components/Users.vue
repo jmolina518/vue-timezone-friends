@@ -3,7 +3,7 @@
     class="search"
     type="text"
     v-model="search"
-    placeholder="Enter Name..."
+    placeholder="Enter CSG Member..."
   />
   <div class="outer-container">
     <div class="container">
@@ -41,7 +41,7 @@ export default {
         return [];
       }
       return this.users.filter((user) => {
-        return user.name.toLowerCase().match(this.search);
+        return user.name.toLowerCase().match(this.search.toLowerCase());
       });
     },
   },
@@ -130,6 +130,11 @@ export default {
 @media (min-width: 1024px) {
   .search {
     width: 30rem;
+  }
+}
+@media (max-width: 450px) {
+  .search {
+    font-size: 0.8em;
   }
 }
 </style>
