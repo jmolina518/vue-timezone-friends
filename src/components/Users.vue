@@ -37,9 +37,6 @@ export default {
   },
   computed: {
     filteredUsers() {
-      if (!this.search) {
-        return [];
-      }
       return this.users.filter((user) => {
         return user.name.toLowerCase().match(this.search.toLowerCase());
       });
